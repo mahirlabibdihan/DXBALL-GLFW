@@ -1,0 +1,39 @@
+﻿  WindowManager.cpp
+G:\Github\DxBall - OpenGL\WindowManager.h(25,22): warning C4244: '=': conversion from 'GLfloat' to 'GLint', possible loss of data
+G:\Github\DxBall - OpenGL\WindowManager.h(29,22): warning C4244: '=': conversion from 'GLfloat' to 'GLint', possible loss of data
+G:\Github\DxBall - OpenGL\WindowManager.h(33,10): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+G:\Github\DxBall - OpenGL\WindowManager.h(37,10): warning C4244: 'return': conversion from 'GLint' to 'GLfloat', possible loss of data
+G:\Github\DxBall - OpenGL\DrawManager.h(154,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+G:\Github\DxBall - OpenGL\DrawManager.h(169,17): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  2 of 1417 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    36 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'G:\Github\DxBall - OpenGL\Release\vc120.pdb'; linking object as if no debug info
+freetype252_D.lib(autofit.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(autofit.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(bdf.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(bdf.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(cff.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(cff.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(ftbase.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(ftbase.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(ftbitmap.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(ftbitmap.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(ftdebug.obj) : warning LNK4099: PDB '' was not found with 'freetype252_D.lib(ftdebug.obj)' or at ''; linking object as if no debug info
+freetype252_D.lib(ftgzip.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(ftgzip.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(ftinit.obj) : warning LNK4099: PDB '' was not found with 'freetype252_D.lib(ftinit.obj)' or at ''; linking object as if no debug info
+freetype252_D.lib(ftlzw.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(ftlzw.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(ftsystem.obj) : warning LNK4099: PDB '' was not found with 'freetype252_D.lib(ftsystem.obj)' or at ''; linking object as if no debug info
+freetype252_D.lib(smooth.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(smooth.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(pcf.obj) : warning LNK4099: PDB '' was not found with 'freetype252_D.lib(pcf.obj)' or at ''; linking object as if no debug info
+freetype252_D.lib(pfr.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(pfr.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(psaux.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(psaux.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(pshinter.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(pshinter.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(psmodule.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(psmodule.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(raster.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(raster.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(sfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(sfnt.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(truetype.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(truetype.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(type1.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(type1.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(type1cid.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(type1cid.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(type42.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(type42.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+freetype252_D.lib(winfnt.obj) : warning LNK4099: PDB 'freetype.pdb' was not found with 'freetype252_D.lib(winfnt.obj)' or at 'G:\Github\DxBall - OpenGL\Release\freetype.pdb'; linking object as if no debug info
+  DxBall - OpenGL.vcxproj -> G:\Github\DxBall - OpenGL\Release\DxBall-OpenGL.exe

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{399a9e6f-ad5c-4587-8b54-78b1789935e2}</ProjectGuid>
+    <RootNamespace>DxBallOpenGL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DxBall-OpenGL</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\OpenGL\SOIL2\src\SOIL2;$(SolutionDir)\OpenGL\irrKlang\include;$(SolutionDir)\OpenGL\GLFW\include;$(SolutionDir)\OpenGL\GLEW\include;$(SolutionDir)\OpenGL\GLM;D:\Github\DxBall - OpenGL\OpenGL\Freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Github\DxBall - OpenGL\OpenGL\SOIL2\lib\windows;$(SolutionDir)\OpenGL\GLFW\lib-vc2019;$(SolutionDir)\Opengl\freeglut\lib;$(SolutionDir)\OpenGL\irrKlang\lib\Win32-visualStudio;$(SolutionDir)\OpenGL\GLEW\lib\Release\Win32;D:\Github\DxBall - OpenGL\OpenGL\Freetype\objs\win32\vc2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>soil2-debug.lib;irrKlang.lib;glfw3.lib;opengl32.lib;glew32s.lib;freetype252_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\OpenGL\SOIL2\src\SOIL2;$(SolutionDir)\OpenGL\irrKlang\include;$(SolutionDir)\OpenGL\GLFW\include;$(SolutionDir)\OpenGL\GLEW\include;$(SolutionDir)\OpenGL\GLM;$(SolutionDir)\OpenGL\Freetype\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\OpenGL\SOIL2\lib\windows;$(SolutionDir)\OpenGL\GLFW\lib-vc2019;$(SolutionDir)\Opengl\freeglut\lib;$(SolutionDir)\OpenGL\irrKlang\lib\Win32-visualStudio;$(SolutionDir)\OpenGL\GLEW\lib\Release\Win32;$(SolutionDir)\OpenGL\Freetype\objs\win32\vc2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>soil2-debug.lib;irrKlang.lib;glfw3.lib;opengl32.lib;glew32s.lib;freetype252_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="BallsManager.cpp" />
+    <ClCompile Include="BoardManager.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BulletsManager.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ButtonsManager.cpp" />
+    <ClCompile Include="CollisionManager.cpp" />
+    <ClCompile Include="BricksManager.cpp" />
+    <ClCompile Include="CustomGameManager.cpp" />
+    <ClCompile Include="Externs.cpp" />
+    <ClCompile Include="FieldManager.cpp" />
+    <ClCompile Include="Headers.cpp" />
+    <ClCompile Include="PaddleManager.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="ParticlesManager.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="ColorManager.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Opengl.cpp" />
+    <ClCompile Include="ResumeManager.cpp" />
+    <ClCompile Include="TextManager.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="KeyboardManager.cpp" />
+    <ClCompile Include="LevelManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuManager.cpp" />
+    <ClCompile Include="MouseManager.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="PowerUpsManager.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="ScoreFont.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="WallManager.cpp" />
+    <ClCompile Include="WindowManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="BallsManager.h" />
+    <ClInclude Include="BoardManager.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BricksManager.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletsManager.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="ButtonsManager.h" />
+    <ClInclude Include="CollisionManager.h" />
+    <ClInclude Include="CustomGameManager.h" />
+    <ClInclude Include="DrawManager.h" />
+    <ClInclude Include="Externs.h" />
+    <ClInclude Include="FieldManager.h" />
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="KeyboardManager.h" />
+    <ClInclude Include="MouseManager.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="ParticlesManager.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="PowerUpsManager.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="ColorManager.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Opengl.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="MenuManager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PaddleManager.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="ResumeManager.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="ScoreFont.h" />
+    <ClInclude Include="TextManager.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="WallManager.h" />
+    <ClInclude Include="WindowManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data\HighScore.txt" />
+    <Text Include="Data\LastState.txt" />
+    <Text Include="Data\Levels\level0.txt" />
+    <Text Include="Data\Levels\level1.txt" />
+    <Text Include="Data\Levels\level10.txt" />
+    <Text Include="Data\Levels\level2.txt" />
+    <Text Include="Data\Levels\level3.txt" />
+    <Text Include="Data\Levels\level4.txt" />
+    <Text Include="Data\Levels\level5.txt" />
+    <Text Include="Data\Levels\level6.txt" />
+    <Text Include="Data\Levels\level7.txt" />
+    <Text Include="Data\Levels\level8.txt" />
+    <Text Include="Data\Levels\level9.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
