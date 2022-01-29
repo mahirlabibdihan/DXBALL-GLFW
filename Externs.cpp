@@ -1,0 +1,13 @@
+#include "Headers.h"
+MouseManager mouse;
+ParticlesManager particles;
+FieldManager field;
+MenuManager menu;
+BoardManager board;
+BallsManager balls;
+AudioManager sound;
+PaddleManager paddle;
+BricksManager bricks;
+BulletsManager bullets;
+PowerUpsManager powerUps;
+GLFWwindow* window;
