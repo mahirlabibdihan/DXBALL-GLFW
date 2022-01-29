@@ -1,0 +1,2 @@
+D:\Github\DxBall - OpenGL\Release\DxBall-OpenGL.exe
+G:\Github\DxBall - OpenGL\Release\DxBall-OpenGL.exe
